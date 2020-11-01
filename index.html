@@ -1,0 +1,43 @@
+<html>
+  <head>
+    <title>
+      TURN server health check tool
+    </title>
+    <script type="text/javascript" src="index.js"></script>
+  </head>
+  <body>
+    <div class="form">
+      <div class="description">
+        TURN server health check tool
+      </div>
+      <div class="field">
+        <label for="turnName">
+          Hostname
+        </label>
+        <input id="turnName" value=""/>
+      </div>
+      <div class="field">
+        <label for="portNumber">
+          Port
+        </label>
+        <input id="portNumber" value="3478"/>
+      </div>
+      <div class="field">
+        <label for="userName">
+          Username
+        </label>
+        <input id="userName" value=""/>
+      </div>
+      <div class="field">
+        <label for="password">
+          Password
+        </label>
+        <input id="password" value=""/>
+      </div>
+      <button id="startChecking">
+        Check
+      </button>
+      <div id="result"></div>
+    </div>
+  </body>
+</html>
